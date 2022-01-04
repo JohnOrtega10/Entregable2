@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+.loader{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.message{
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+  color: #112031;
+  font-weight: 600;
+  font-size: 15px;
+}
+
 .lds-spinner {
   color: official;
   display: inline-block;
