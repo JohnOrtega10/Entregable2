@@ -1,6 +1,6 @@
 import React from 'react';
 import './City.styles.css'
-import { useState } from 'react';
+
 
 const City = ({cityName, country, url, description, windSpeed, clouds, temp, handleTemp, isCelcius, pressure}) => {
 
@@ -15,7 +15,7 @@ const City = ({cityName, country, url, description, windSpeed, clouds, temp, han
             </div>
             <div className='information'> 
                 <div className='image'>
-                    <img src = {url} alt="weather image" />
+                    <img src = {url} alt="weather" />
                 </div>
                 <div className='specific_information'>
                     <h3>"{description}"</h3>
