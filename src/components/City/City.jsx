@@ -24,7 +24,7 @@ const City = ({cityName, country, url, description, windSpeed, clouds, temp, han
                     <span> <i className="fas fa-thermometer"></i> <b>Pressure</b> {pressure}</span>
                     <div className='button' > 
                         <span> <i className="fas fa-temperature-high"></i> 
-                                <b>Temperature </b>
+                                <b> Temperature </b>
                                 {isCelcius?` ${temp} °C`:`${((temp*9/5)+32).toFixed(2)} °F`}
                         </span>
                         <button onClick={handleTemp}><i className="fas fa-exchange-alt"></i></button>
