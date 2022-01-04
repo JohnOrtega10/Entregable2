@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.card{
+    color: #112031;
+    padding: 2.5rem;
+    border-radius: 30px;
+    background-color: #d4ecdd9d;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.title h1{
+    font-weight: 700;
+}
+
+.information{
+    
+    padding: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 15px;
+
+    
+}
+
+.information h3{
+    margin-top: 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.information h3::first-letter{
+    text-transform: uppercase;
+}
+
+.information .image{
+    margin-right: 2.5rem;
+    background-color: #152d35e5;
+    border-radius: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;     
+}
+
+
+.information .image img{
+   height: 180px;
+   width: auto;
+    
+    
+}
+.information .specific_information{
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.information .specific_information span{
+    margin-top: 5px;
+}
+
+.information .specific_information .button button{
+    margin-left: 10px;
+    background-color: #152D35;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    color: #FCF0C8;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+}
